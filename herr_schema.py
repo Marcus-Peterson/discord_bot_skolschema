@@ -9,7 +9,8 @@ import pytz
 intents = discord.Intents.default()
 intents.messages = True
 intents.guilds = True
-bot = commands.Bot(command_prefix="!", intents=intents)
+intents.message_content = True
+bot = commands.Bot(command_prefix="!", intents=intents,case_insensitive=True)
 
 def get_schedule(url, date):
     ics = requests.get(url).text
