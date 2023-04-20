@@ -1,2 +1,2 @@
 # discord_bot_skolschema
-En robot som skickar uppdateringar till min skolas discord server
+En robot som skickar dagens schema till min skolas discord server
