@@ -113,5 +113,5 @@ async def veckoschema(ctx):
     await ctx.send(f"{message}")
 
 # Replace "YOUR_DISCORD_BOT_TOKEN" with your actual bot token
-bot.run("MTA3ODYwMjI1NTYzMDA5MDI5MA.GsfJyi.DJwSr47bo0pinhTS_KQFg1ysm0phLTSzPXbRxA")
+bot.run("TOKEN")
 
